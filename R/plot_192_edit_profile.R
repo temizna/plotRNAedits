@@ -27,7 +27,7 @@ plot_192_edit_profile<-function (mut_matrix, colors = NA, ymax = 0.2, condensed 
   freq <- full_context <- substitution <- context <- NULL
   if (is.na(colors)) {
     colors <- c("yellow","black","red","cyan","black","red",
-                "cyan","yellow","red","cyan","yellow","black")#COLORS6
+                "cyan","yellow","red","cyan","yellow","black")
   }
   if (length(colors) != 12) {
     stop("Provide colors vector with length 6", call. = FALSE)
