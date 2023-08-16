@@ -5,8 +5,6 @@ Version: 0.1.0
 Author: N Alpay Temiz
 Maintainer: The package maintainer <temizna@umn.edu>
 Description: This package utilizes MutationalPatterns. Reads vcf files similar to MutationalPatterns. Creates the full 192 context RNA edits matrix and plots that full context RNA edit profile. 
-Depends:
-	MutationalPatterns (>= 3.9.1)
 License: GPL-3 
 Encoding: UTF-8
 LazyData: true
